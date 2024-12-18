@@ -4,7 +4,7 @@ setup(
     name="summary_bot",
     version="0.0.1",
     description="A package for generating summaries for URL served via Telegram bot",
-    url="https://github.com/galinaalperovich/summary_bot",
+    url="https://github.com/Levash0v/ai_summary_tg_bot/",
     author="Galina Alperovich",
     author_email="galya.alperovich@gmail.com",
     packages=find_packages(),
