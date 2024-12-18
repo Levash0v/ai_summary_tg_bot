@@ -7,6 +7,7 @@ RUN apt-get update -y \
     && apt-get update -y \
     && apt-get install -y google-chrome-stable fonts-ipafont-gothic fonts-wqy-zenhei fonts-thai-tlwg fonts-kacst fonts-freefont-ttf \
       --no-install-recommends \
+    && apt install libxss1 \
     && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt /opt/app/requirements.txt
