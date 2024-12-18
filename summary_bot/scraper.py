@@ -77,6 +77,7 @@ class Scraper:
             "args": [
                 "--lang=en-GB",
                 '--user-agent="{}"'.format(HEADERS["User-Agent"]),
+                "--no-sandbox",  # Добавлен аргумент
             ],
         }
         if from_docker:
